@@ -1,0 +1,38 @@
+
+.tabla{
+    font-size: 20px;
+    margin-left: initial;
+    margin-top: 50px;
+    font-family: 'arial';
+    width: 100%; 
+    border-collapse: collapse; 
+    box-shadow: 0 0 10px #3fc6dd;
+    
+}
+.tabla td{
+    font-size: 20px;
+    
+    padding: 5px; 
+     background: white;
+     color: cadetblue;; 
+     text-align: center;
+}
+
+.tabla th{
+     padding: 8px;
+     color: white;
+    text-align: center;
+     font-size: 25px;
+     background-color: gray;
+ }
+ .maintab{
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 50px;
+    width: 60%;
+}
+.tabla td:hover { 
+    background: #3fc6dd;
+    color: white; }
+

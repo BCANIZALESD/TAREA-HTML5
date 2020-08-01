@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5</title>
+    <link rel="stylesheet" href="estilos/encabezado.css">
+    <link rel="stylesheet" href="estilos/estilosgeneral.css">
     
 </head>
-<body>
+<body class="body">
 
-    <header>
-        <img src="imagen/html.png" alt="imagen html" width="180" height="100">
-    <h1>DESARROLLO WEB</h1>
-    <hr>
-    <h2>Introduccion a HTML 5</h2>
+    <header id="head">
+        <img id="imghead" src="imagen/html.png" alt="imagen html" width="180" height="100">
+        <div class="tithead">
+        <h1>DESARROLLO WEB</h1>
     
+    <h2>Introduccion a HTML 5</h2>
+        </div>
 
     <nav>
-        <ul>
-            <li><a href="index.html" target="_blank" >Inicio</a></li>
-            <li><a href="elementos.html" target="_blank" >Elementos</a></li>
-            <li><a href="atributos.html" target="_blank" >Atributos</a></li>
+        <ul id="navega">
+            <li class="elemento"><a class="enlace" href="index.html" target="_blank" >Inicio</a></li>
+            <li class="elemento"><a class="enlace" href="elementos.html" target="_blank" >Elementos</a></li>
+            <li class="elemento"><a class="enlace" href="atributos.html" target="_blank" >Atributos</a></li>
+            <li class="elemento"><a class="enlace" href="tablasCSS.html" target="_blank" >tablas css</a></li>
         </ul>
     </nav>
 </header>
 
-    <main>
+    <main class="main">
         <section>
-            <hr>
+            
             <article>
-                <h2>Definicion de HTML 5</h2>
+                <h2 class="titulos">Definicion de HTML 5</h2>
                 <p>
                     Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al usuario común actualizar su navegador a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML 5.
 
@@ -41,7 +45,7 @@ El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
             </article>
             <hr>
             <article>
-                <h2>Aplicaciones</h2>
+                <h2 class="titulos">Aplicaciones</h2>
                 <p>
                     Las aplicaciones multiplataforma, por ejemplo, tienen un coste menor y un desarrollo más rápido: con un único código pueden utilizarse en varios sistemas operativos. Aun así, este tipo de desarrollo también tiene sus limitaciones…
                     Páginas web multimedia: gracias a etiquetas como video y audio podemos añadir videos o audio. 
@@ -62,7 +66,7 @@ El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
             </article>
 
             <article>
-                <h2>Versiones</h2>
+                <h2 class="titulos" >Versiones</h2>
                 <p>
                     
                     Los estándres oficiales HTML son el HTML 2.0, el HTML 4.0, el HTML 5. El HTML 5 es la
@@ -73,6 +77,8 @@ El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
 
                     
                 </p>
+                <br>
+                <br>
                 <img src="imagen/Captura.PNG" alt="Captura Html" width="1100" height="800">
                 <hr>
             </article>
@@ -80,13 +86,13 @@ El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
 
     </main>
 
-    <aside>
-        <h2>ANEXOS</h2>
-        <OL>
-            <li> <a href="https://es.wikipedia.org/wiki/HTML5">Definicion</a> </li>
-            <li> <a href="https://www.yeeply.com/blog/programar-apps-multiplataforma-html5/">Aplicaciones</a> </li>
-            <li> <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=444:icuales-son-las-versiones-de-html-diferencias-entre-html-4-y-html-5-significado-de-strict-cu00706b&catid=69&Itemid=192">Versiones</a> </li>
-        </OL>
+    <aside class="lateral">
+        <h2 id="titAnexo">ANEXOS</h2>
+        <ul>
+            <li> <a class="enlacesA" href="https://es.wikipedia.org/wiki/HTML5">Definicion</a> </li>
+            <li> <a class="enlacesA" href="https://www.yeeply.com/blog/programar-apps-multiplataforma-html5/">Aplicaciones</a> </li>
+            <li> <a class="enlacesA"  href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=444:icuales-son-las-versiones-de-html-diferencias-entre-html-4-y-html-5-significado-de-strict-cu00706b&catid=69&Itemid=192">Versiones</a> </li>
+        </ul>
     </aside>
     <section>
 
@@ -96,6 +102,6 @@ El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
     <hr>
 
 
-    <footer> © BrandonCD 2020  WEB-DEVELOPMENT</footer>
+    <footer id="footer"> © BrandonCD 2020  WEB-DEVELOPMENT</footer>
 
   

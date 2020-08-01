@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementos</title>
+    <link rel="stylesheet" href="estilos/encabezado.css">
+    <link rel="stylesheet" href="estilos/estilosgeneral.css">
+    <link rel="stylesheet" href="estilos/tablas.css">
 </head>
-<body>
-    <header>
-        <img src="imagen/html.png" alt="imagen html" width="180" height="100">
-    <h1>DESARROLLO WEB</h1>
+<body class="body">
+
+    <header id="head">
+        <img id="imghead" src="imagen/html.png" alt="imagen html" width="180" height="100">
+        <div class="tithead">
+        <h1>DESARROLLO WEB</h1>
+    
     <h2>Introduccion a HTML 5</h2>
+        </div>
+
     <nav>
-        <ul>
-            <li><a href="index.html" target="_blank" >Inicio</a></li>
-            <li><a href="elementos.html" target="_blank" >Elementos</a></li>
-            <li><a href="atributos.html" target="_blank" >Atributos</a></li>
+        <ul id="navega">
+            <li class="elemento"><a class="enlace" href="index.html" target="_blank" >Inicio</a></li>
+            <li class="elemento"><a class="enlace" href="elementos.html" target="_blank" >Elementos</a></li>
+            <li class="elemento"><a class="enlace" href="atributos.html" target="_blank" >Atributos</a></li>
+            <li class="elemento"><a class="enlace" href="tablasCSS.html" target="_blank" >tablas css</a></li>
         </ul>
     </nav>
 </header>
     
-<main>
+<main class="maintab">
     <section>
         
-    <h3> Elementos HTML </h3>
+    <h3 class="titulos"> Elementos HTML </h3>
 
-                <table border="1">
+                <table border="1" class="tabla">
                     <tr>
                         <th width="200" height="20">No.</th>
                         <th width="400" height="20">Elementos</th>
@@ -32,67 +41,33 @@
                     </tr>
 
                     <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
-
+                        <td width="200" height="20">1</td>
+                        <td width="400" height="20">head</td>
+                        <td width="600" height="20">Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo.</td>
                     </tr>
-                    
+                        <td width="200" height="20">2</td>
+                        <td width="400" height="20">title</td>
+                        <td width="600" height="20">Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada.</td>
+                    <tr>    
+                        <td width="200" height="20">3</td>
+                        <td width="400" height="20">base</td>
+                        <td width="600" height="20">Define la URL base para las URLs relativas en la página.</td>
+                    </tr>   
+                    <tr> 
+                        <td width="200" height="20">4</td>
+                        <td width="400" height="20">link</td>
+                        <td width="600" height="20">Usada para enlazar JavaScript y CSS externos con el documento HTML actual.</td>
+                    </tr>
                     <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
+                        <td width="200" height="20">5</td>
+                        <td width="400" height="20">meta</td>
+                        <td width="600" height="20">Define los metadatos que no pueden ser definidos usando otro elemento HTML.
+                    </td>
 
-                    </tr>
-                    
-                    <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
+                        
 
-                    </tr>
-                    
-                    <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
-
-                    </tr>
-                    
-                    <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
-
-                    </tr>
-                    
-                    <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
-
-                    </tr>
-                    
-                    <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
-
-                    </tr>
-                    
-                    <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
-
-                    </tr>
-                    
-                    <tr>
-                        <th width="200" height="20"></th>
-                        <th width="400" height="20"></th>
-                        <th width="600" height="20"></th>
-
-                    </tr>
+                   
+                </table>
         </section>
     </main>
     

@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#head{
+    background-image: linear-gradient(#e9d35a , #3fdda2,#3fc6dd);
+    height: 150px;
+
+}
+#imghead{
+    width: 8%;
+    height: 100px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  
+}
+.tithead{
+    float: right;
+    width: 90%;
+    font-family: 'arial';
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#navega{
+    background: gray;
+    height: 40px;
+    margin: 0px;
+
+}
+
+.elemento{
+    display: inline-block;
+    margin-left: 6%;
+    margin-right: 6%; 
+    height: 35 px;
+    width: 12%;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+.elemento:hover{
+    background: #3fc6dd;
+    margin-top: 0px;
+    
+}
+
+.enlace{
+    color: white;
+    display: block;
+    font-family: 'arial';
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    height: 38px;
+    text-decoration: none;
+    
+}
